@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('E:/Pycharm Programs/flaskApp/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('new_trained_model.sav', 'rb'))
 
 #creating a function for prediction
 
